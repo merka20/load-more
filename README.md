@@ -8,3 +8,20 @@ Hay que añadir en el tema que tengamos activo a la plantilla de archive del CPT
 ```
 El arbol de las carpetas tiene que tener una carpeta llamada image.
 
+```
+project
+│   README.md
+│   archive-cpt.php
+│   functions.php
+│   style.css
+|   screenshot.jpg
+│
+└───image
+│   │   cargando.gif
+│   
+└───template-parts
+    └───blocks
+        │   traducciones.php
+
+```
+
