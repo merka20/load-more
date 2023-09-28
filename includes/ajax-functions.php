@@ -9,6 +9,7 @@ function MK20_loadmore_load_more_posts() {
     $args = array(
         'post_type' => 'moplugins', // Tipo de contenido (puedes cambiarlo a 'page' o personalizarlo)
         'posts_per_page' => 6, // Número de entradas a cargar por página
+        'post_status' => 'publish',
         'paged' => $page, // Página actual
     );
 
